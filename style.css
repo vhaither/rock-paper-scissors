@@ -9,3 +9,142 @@ body{
     font-family: 'Brush Script MT', cursive;
 }
 
+.selectWeapon{
+    display: flex;
+    width: 300px;
+    gap: 10px ;
+}
+
+.allScores{
+    display: flex;
+    gap: 50px;
+}
+
+.playerScoreBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botScoreBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.results{
+    display: flex;
+    gap: 20px;
+}
+
+.myPickBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.gameResultBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.computerPickBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.gameResult{
+    background-color: antiquewhite;
+    color: black;
+    border: 3px solid orange;
+    border-radius: 16px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    color: orange;
+    font-size: large;
+}
+
+.computerPick{
+    color:red;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myPick{
+    color:green;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerScore{
+    color: green;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    border: 3px solid orange;
+    border-radius: 16px;
+
+}
+
+.botScore{
+    color: red;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    border: 3px solid orange;
+    border-radius: 16px;
+}
+
+button.rpsButtons{
+    flex:1;
+    font-size: larger;
+    background-color: antiquewhite;
+    border: 3px solid orange;
+    border-radius: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+h1{
+    color: orange;
+}
+
+h2{
+    color:antiquewhite
+}
+
+.selectWeaponBlock{
+    text-align: center;
+}
+
+button.restart{
+    font-size: larger;
+    background-color: antiquewhite;
+    border: 3px solid orange;
+    border-radius: 32px;
+    color: black;
+    font-weight: bold;
+    margin: 50px 0 50px 0;
+}

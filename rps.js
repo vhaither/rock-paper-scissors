@@ -9,13 +9,13 @@ const getComputerChoice = () => {
 const playRound = (playerSelection, computerSelection)=>{
 
     if (lossCount >= 5){
-        resultsBlock.textContent="You lost the match! Reload the page and to try again.";
+        resultsBlock.textContent="You lost the match! Click the restart button to try again.";
         resultsBlock.style.color = 'red';
         return ;
     }
 
     if (winCount >= 5){
-        resultsBlock.textContent="You won the match! Reload the page and to play again.";
+        resultsBlock.textContent="You won the match! Click the restart button to play again.";
         resultsBlock.style.color = 'green';
         return ;
     }
@@ -67,13 +67,13 @@ const playRound = (playerSelection, computerSelection)=>{
     computerPickBlock.textContent = computerSelection.toUpperCase();
 
     if (lossCount >= 5){
-        resultsBlock.textContent="You lost the match! Reload the page and to try again.";
+        resultsBlock.textContent="You lost the match! Click the restart button to try again.";
         resultsBlock.style.color = 'red';
         return ;
     }
 
     if (winCount >= 5){
-        resultsBlock.textContent="You won the match! Click the button below to play again.";
+        resultsBlock.textContent="You won the match! Click the restart button to play again.";
         resultsBlock.style.color = 'green';
         return ;
     }
@@ -83,8 +83,8 @@ const rockButton = document.querySelector('button.rock');
 const paperButton = document.querySelector('button.paper');
 const scissorsButton = document.querySelector('button.scissors');
 const resultsBlock = document.querySelector('.gameResult');
-const playerScoreBlock = document.querySelector('.playerScoreBlock');
-const computerScoreBlock = document.querySelector('.botScoreBlock');
+const playerScoreBlock = document.querySelector('.playerScore');
+const computerScoreBlock = document.querySelector('.botScore');
 const playerPickBlock = document.querySelector('.myPick');
 const computerPickBlock = document.querySelector('.computerPick');
 const resetButton = document.querySelector('button.restart');
