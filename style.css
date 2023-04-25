@@ -42,6 +42,8 @@ body{
 .myPickBlock{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    width: 20%;
 }
 
 .gameResultBlock{
@@ -53,6 +55,7 @@ body{
 .computerPickBlock{
     display: flex;
     flex-direction: column;
+    width: 20%;
 }
 
 .gameResult{
@@ -70,6 +73,7 @@ body{
 span{
     color: orange;
     font-size: large;
+    text-align: center;
 }
 
 .computerPick{
