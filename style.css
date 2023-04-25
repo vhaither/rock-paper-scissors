@@ -12,22 +12,25 @@ body{
 
 div.header p{
     color:orange;
-    font-size: 66px ;
+    font-size: 56px ;
     margin: 10px;
     text-align: center;
 }
 
+.footer{
+    margin-top: 30px;
+}
 div.footer p {
     color:orange;
     font-size: 20px ;
-    margin: 10px;
     text-align: center;
 }
 
 p.winningCondition{
     color: antiquewhite;
-    font-size: 40px ;
+    font-size: 30px ;
     text-align: center;
+    margin: 0 10px;
 } 
 
 p.uiId{
@@ -48,19 +51,28 @@ div.mid{
 div.allScores{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
 }
 
 .playerScoreBlock{
     width: 100px;
     height:100px;
     background-color: antiquewhite;
+    border-radius: 16px;
+    border: 4px solid orange;
 }
 
 .botScoreBlock{
     width: 100px;
     height:100px;
     background-color: antiquewhite;
+    border-radius: 16px;
+    border: 4px solid orange;
+}
+
+.selectWeapon{
+    width: 100%;
 }
 
 .buttons{
@@ -75,27 +87,32 @@ div.allScores{
     width: 33%;
     height:100px;
     background-color: antiquewhite;
-    color: red;
+    color: black;
     font-weight: bold;
     font-size: larger;
     border-radius: 32px;
     margin: 0 10px;    
+    border: 4px solid orange;
 }
 
-div.results{
-    height: 300px;
+div.resultsBlock{
+    height: 100px;
     width: 300px;
     background-color: antiquewhite;
+    border: 4px solid orange;
+    border-radius: 16px;
 }
 
 .playerScore{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 0 0 10px;
 }
 
 .botScore{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 10px 0 0;
 }
