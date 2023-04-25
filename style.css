@@ -44,18 +44,21 @@ body{
     flex-direction: column;
     text-align: center;
     width: 20%;
+    margin-left: 8px;
 }
 
 .gameResultBlock{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 .computerPickBlock{
     display: flex;
     flex-direction: column;
     width: 20%;
+    margin-right: 8px;
 }
 
 .gameResult{
@@ -63,11 +66,12 @@ body{
     color: black;
     border: 3px solid orange;
     border-radius: 16px;
-    width: 300px;
+    min-width: 100px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 8px;
 }
 
 span{
@@ -133,10 +137,12 @@ button.rpsButtons{
 
 h1{
     color: orange;
+    text-align: center;
 }
 
 h2{
-    color:antiquewhite
+    color:antiquewhite;
+    text-align: center;
 }
 
 .selectWeaponBlock{
