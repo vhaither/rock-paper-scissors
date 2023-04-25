@@ -13,42 +13,54 @@
         <p>ROCK PAPER SCISSORS</p>
     </div>
 
-    <div class="mid">
-        <p class="winningCondition">First player to score 5 points wins!</p>
-        <div class="selectWeapon">
-            <p class="uiId">Pick your weapon</p>
-            <div class="buttons">
-                <button class="rpsButtons">Rock</button>
-                <button class="rpsButtons">Paper</button>
-                <button class="rpsButtons">Scissors</button>
-            </div>
-        </div>
-        <div class="allScores">
-            <div class="playerScore">
-                <p class="uiId">Player Score</p>
-                <div class="playerScoreBlock">
+    <p class="winningCondition">
+        First player to score 5 points wins!
+    </p>
 
-                </div>
-            </div>
+      <div class="selectWeapon">
+          <p class="uiId">Pick your weapon</p>
+          <div class="buttons">
+              <button class="rpsButtons rock">Rock</button>
+              <button class="rpsButtons paper">Paper</button>
+              <button class="rpsButtons scissors">Scissors</button>
+          </div>
+      </div>
 
-            <div class="botScore">
-                <p class="uiId">Computer Score</p>
-                <div class="botScoreBlock">
-
-                </div>
+    <div class="allScores">
+        <div class="playerScore">
+            <p class="uiId">Player Score</p>
+            <div class="scoreBlocks">
+                <p class="playerScoreBlock">0</p>
             </div>
         </div>
 
-        <div class="results">
-            <p class="uiId">Results</p>
+        <div class="botScore">
+            <p class="uiId">Computer Score</p>
+            <div class="scoreBlocks">
+                <p class="botScoreBlock">0</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="results">
+        <div class="pickBlock">
+            <p class="uiId"> My Pick </p>
+            <p class="myPick">...</p>
+        </div>
+        <div class="finalResult">
+            <p class="uiId">Result</p>
             <div class="resultsBlock">
+                <p class="gameResult"></p>
             </div>
+        </div>
+        <div class="pickBlock">
+            <p class="uiId"> Computer Pick </p>
+            <p class="computerPick">...</p>
         </div>
     </div>
 
-    <div class="footer">
-        <p>Random footer just because</p>
-    </div>
+    <button class="restart">Restart</button>
+
 
 <script src="rps.js"></script>
 </body>
